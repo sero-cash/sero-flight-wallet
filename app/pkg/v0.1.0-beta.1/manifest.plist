@@ -11,19 +11,19 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>ipa的下载地址</string>
+                    <string>https://raw.githubusercontent.com/sero-cash/sero-flight-wallet/master/app/pkg/v0.1.0-beta.1/flight.sero.cash-v010-beta1-ios-signed-pgy.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>57*57尺寸的icon下载地址</string>
+                    <string>https://raw.githubusercontent.com/sero-cash/sero-flight-wallet/master/app/pkg/res/58x58.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>512*512尺寸的icon下载地址</string>
+                    <string>https://raw.githubusercontent.com/sero-cash/sero-flight-wallet/master/app/pkg/res/192x192.png</string>
                 </dict>
             </array>
             <key>metadata</key>
