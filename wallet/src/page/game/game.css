@@ -1,0 +1,18 @@
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 15px 0 9px 15px;
+}
+.not-square-grid .am-grid-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.divcss5 {
+    margin: 0px 30px 0px 0px;
+    /*border: 1px solid #00F;*/
+    /*height: 120px;*/
+    line-height: 1;
+    width: 80%;
+    word-wrap: break-word;
+}

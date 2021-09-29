@@ -1,0 +1,45 @@
+.cardBody {
+    color: #000;
+    font-size: 48px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footerExtra {
+    width: 80px;
+    text-align: center;
+    float: right;
+}
+
+.copyTxt {
+    width: 40px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    background: #108ee9;
+    margin: 0 auto;
+}
+
+.listItemDiv {
+    width: 100%;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.listItemDiv .l {
+    width: 10%;
+    float: left;
+
+}
+
+.listItemDiv .m {
+    width: 40%;
+    float: left;
+}
+
+.listItemDiv .r {
+    width: 50%;
+    float: right;
+    text-align: right;
+}

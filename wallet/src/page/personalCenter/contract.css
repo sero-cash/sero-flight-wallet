@@ -1,0 +1,14 @@
+.common{
+    font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+    padding: 15px 25px;
+    font-size: 11pt;
+    line-height: 1.7;
+    color: #494949;
+    outline: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /*min-height: 1172px;*/
+    background-color: #fff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

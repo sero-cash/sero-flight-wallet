@@ -1,0 +1,210 @@
+.my-drawer {
+    position: relative;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar {
+    background-color: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.my-drawer .am-drawer-sidebar .am-list {
+    width: 300px;
+    padding: 0;
+}
+
+.am-drawer.am-drawer-left .am-drawer-draghandle, .am-drawer.am-drawer-right .am-drawer-draghandle {
+    width: 0px !important;
+    height: 100%;
+}
+
+.flex-container {
+    margin: 0 15px;
+}
+
+.flex-container .inline {
+    width: 80px !important;
+    margin: 9px 9px 9px 0;
+}
+
+.flex-container .small {
+    height: 20px !important;
+    line-height: 20px !important;
+}
+
+.sub-title {
+    color: #888;
+    font-size: 14px;
+    padding: 10px 0 15px 0;
+}
+
+
+.exchange .head1{
+    font-size: 28px;
+    font-weight: bold;
+    color: green;
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+    letter-spacing:3px;
+}
+
+
+/*.am-flexbox .am-flexbox-item {*/
+    /*margin-left: 0px;*/
+/*}*/
+
+/*#priceInput{*/
+    /*height: 20px;*/
+    /*border: 1px solid #dcdfe6;*/
+    /*border-radius: 3px;*/
+    /*outline: none;*/
+    /*padding-right: 15px;*/
+    /*font-size:14px;*/
+    /*text-align: right;*/
+
+/*}*/
+
+/*.am-list-item .am-input-control input{*/
+    /*font-size:14px;*/
+/*}*/
+
+/*.am-list-item .am-input-extra{*/
+    /*font-size:14px;*/
+/*}*/
+
+/*.am-list-item .am-list-line .am-list-content{*/
+    /*font-size:14px;*/
+/*}*/
+
+/*.am-list-item .am-input-label{*/
+    /*font-size:14px;*/
+/*}*/
+
+/*.am-list-item .am-list-line{*/
+    /*padding-left: 0px;*/
+/*}*/
+
+.buy-price-color{
+    color:#009688;
+}
+
+/*.am-list-item .am-input-label.am-input-label-5 {*/
+    /*width:35px;*/
+/*}*/
+
+.orderContext{
+    /*background-color: white;*/
+}
+
+.placeholder {
+    /*background-color: #ebebef;*/
+    color: #bbb;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
+.placeholder-c {
+    /*background-color: #1b1e21;*/
+    color: #1b1e21;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.placeholder-order {
+    /*background-color: #1b1e21;*/
+    color: #1b1e21;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+}
+
+.ex-price {
+    width: 30%;
+    float: left;
+    line-height: 1.9;
+    margin-top: 5px;
+
+}
+
+.ex-price-head {
+    color: #000;
+    text-align: right;
+    font-size: 12px;
+}
+
+.ex-price-sell {
+    color: red;
+    text-align: right;
+    font-size:10px;
+}
+
+.ex-price-buy {
+    color: green;
+    text-align: right;
+    font-size:10px;
+}
+
+.ex-price-buynow {
+    color: green;
+    margin: 10px 0px;
+    font-weight: bold;
+
+}
+
+
+.multi-foo-menu {
+    position: absolute;
+    z-index: 80 !important;
+    width: 100%;
+}
+
+.multi-menu-active .multi-top-nav-bar{
+    z-index: 80;
+}
+
+.multi-top-nav-bar {
+    position: relative;
+    /*background-color: #008AE6;*/
+    /*color: #FFF;*/
+}
+.am-navbar-title {
+    color: #FFF!important;
+}
+.menu-mask {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 79;
+}
+
+.detail-span {
+    color: #0f0f0f;
+    font-size: 14px;
+}
+
+.detail-title{
+    color: gray;
+    font-size: 14px;
+}
+
+.sidebar-div .am-list-item .am-input-label.am-input-label-5 {
+    width: 20px;
+}
+
+.priceList .am-list-body{
+    position: inherit;
+}

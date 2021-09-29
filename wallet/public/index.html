@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/logo.png">
+    <script src="https://at.alicdn.com/t/font_790156_gykhuwdmtjf.js" charset="utf-8"></script>
+    <script type="application/javascript">
+      document.addEventListener('plusready', function() {
+        plus.navigator.setStatusBarBackground("#108ee9");
+        plus.navigator.setStatusBarStyle("dark");
+
+        plus.nativeUI.closeWaiting();
+        plus.navigator.closeSplashscreen();
+
+        if(plus && plus.key){
+          plus.key.addEventListener("backbutton",function(){
+            if(window.barcode){
+              window.barcode.close();
+              window.barcode = null;
+            }
+            let a = window.location.href;
+            let lastBackTime = window.lastBackTime;
+
+            if(a.substring(a.length-2)==="#/"){
+              if( plus && plus.runtime){
+                let now = new Date();
+                if(lastBackTime && (now - lastBackTime <= 2000)){
+                  plus.runtime.quit();
+                }else{
+                  window.lastBackTime = new Date();
+                  plus.nativeUI.toast("Press again to exit the app!");
+                }
+              }
+            }else{
+              window.history.back();
+            }
+          });
+          console.log("plus.key.addEventListener success");
+        }
+
+      });
+    </script>
+    <style media="screen">
+      .am-icon {
+         width: 18px; height: 18px;
+         vertical-align: -0.15em;
+         fill: currentColor;
+         overflow: hidden;
+      }
+    </style>
+    <title>SERO FLIGHT</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

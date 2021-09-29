@@ -1,0 +1,44 @@
+.editButton{
+    margin-top: 30px;
+}
+.editButton .l{
+    width: 33.33%;
+    float: left;
+    text-align: left;
+}
+
+.editButton .m{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+
+.editButton .r{
+    width: 33.33%;
+    float: right;
+    text-align: right;
+}
+.item {
+    line-height: 2;
+}
+
+.item .content{
+    font-size:12px;
+    width: 100% !important;
+    float: left !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+    word-wrap:break-word;
+}
+
+.addressButton{
+    bottom:0px;
+    display: flex;
+    position:absolute;
+    width: 100%;
+}
+
+.addressButton .btn1{
+    width: 100%;
+}

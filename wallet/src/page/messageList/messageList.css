@@ -1,0 +1,51 @@
+.messageListDemo .noMessage{
+  padding:130px 0;
+  font-size: 15px;
+}
+.messageListDemo .message-list-unread{
+  width: 100%;
+}
+.messageListDemo .message-list-read{
+  width: 100%;
+}
+.redDot{
+  width: 6px;
+  height: 6px;
+  background: red;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.grayDot{
+  width: 6px;
+  height: 6px;
+  background: gray;
+  border-radius: 3px;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+
+.noticeText{
+  height: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+  font-size: 11pt;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.contextMsg{
+  font-family: -apple-system, BlinkMacSystemFont, PingFang SC, Helvetica, Tahoma, Arial, "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", sans-serif;
+  padding: 15px 25px;
+  font-size: 11pt;
+  line-height: 1.7;
+  color: #000;
+  outline: none;
+  text-align: left;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*min-height: 1172px;*/
+  background-color: #fff;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

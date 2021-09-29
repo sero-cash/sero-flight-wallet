@@ -1,0 +1,55 @@
+.modifyPasswdDom .am-navbar-left{
+  /*font-size: 18px;*/
+}
+.modifyPasswdDom .am-list-item-middle{
+  height: 60px;
+}
+.modifyPasswdDom .am-navbar{
+  margin-bottom: 30px;
+}
+.modifyPasswdInput{
+  margin-top: 30px;
+}
+.modifyPasswdInput .am-list-item.am-input-item{
+  height: 60px;
+}
+.modifyPasswdBtn{
+  clear: both;
+  width: 95%;
+  margin:0 auto;
+  margin-top: 30px;
+}
+.modifyPasswdInput .modiEmailCode{
+  position: relative;
+}
+.modifyPasswdInput .sendCaptcha{
+  position: absolute;
+  top:0;
+  right: 0;
+  height: 60px;
+  padding:16px 0;
+  box-sizing: border-box;
+  width: 30%;
+}
+.modifyPasswdInput .sendCaptcha .sendTxt{
+  height: 28px;
+  line-height: 28px;
+  font-size: 17px;
+  color:#108ee9;
+  background: white;
+  border:none!important;
+  border-left: 1px solid #ddd!important;
+  border-radius: 0!important;
+}
+.modifyPasswdInput .sendCaptcha .sendTxt::before{
+  border:none!important;
+}
+.modifyPasswdInput .sendCaptcha .am-button-disabled::before{
+  border:none!important;
+}
+.modifyPasswdInput .sendCaptcha .am-button-disabled{
+  color:#434343;
+}
+.modiEmailCode .am-list-item .am-input-control input{
+  width: 60%;
+}

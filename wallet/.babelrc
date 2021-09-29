@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    [
+      "import",
+      [
+        {
+          "libraryName": "antd",
+          "libraryDirectory": "lib",
+          "style": true
+        },
+        {
+          "libraryName": "antd-mobile"
+        }
+      ]
+    ]
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "ie >=9"
+          ]
+        },
+        "useBuiltIns": true,
+        "debug": true
+      }
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Share Example</title>
+    <script type="text/javascript">
+        var shares=null,sharewx=null,qq=null,sinaweibo=null;
+        // 监听plusready事件
+        document.addEventListener("plusready", function(){
+            // 扩展API加载完毕，现在可以正常调用扩展API
+            plus.share.getServices(function(s){
+                shares = s;
+                for(var i in s){
+
+                    console.log(s[i].id)
+
+                    if('weixin'==s[i].id){
+                        sharewx=s[i];
+                    }
+
+                    if('qq'==s[i].id){
+                        qq=s[i];
+                    }
+
+                    if('sinaweibo'==s[i].id){
+                        sinaweibo=s[i];
+                    }
+                }
+            }, function(e){
+                alert( "获取分享服务列表失败："+e.message );
+            });
+        }, false );
+        function shareWeixinMessage(){
+            sharewx.send( {content:"DCloud HBuilder-做最好的HTML5开发工具",href:"http://www.dcloud.io/",extra:{scene:"WXSceneTimeline"}}, function(){
+                alert("分享成功！");
+            }, function(e){
+                alert("分享失败："+e.message);
+            });
+
+        }
+
+        function shareQQMessage(){
+            qq.send( {title:'Cloud HBuilde',content:"DCloud HBuilder-做最好的HTML5开发工具",href:"http://www.dcloud.io/",extra:{scene:"WXSceneTimeline"}}, function(){
+                alert("分享成功！");
+            }, function(e){
+                alert("分享失败："+e.message);
+            });
+
+        }
+
+        function shareWEIboMessage(){
+            sinaweibo.send( {title:'Cloud HBuilde',content:"DCloud HBuilder-做最好的HTML5开发工具",href:"http://www.dcloud.io/",extra:{scene:"WXSceneTimeline"}}, function(){
+                alert("分享成功！");
+            }, function(e){
+                alert("分享失败："+e.message);
+            });
+        }
+
+
+
+
+
+    </script>
+</head>
+<body>
+<button onclick="shareWeixinMessage()">分享链接到微信朋友圈</button>
+<button onclick="shareQQMessage()">分享链接到qq朋友圈</button>
+<button onclick="shareWEIboMessage()">分享链接到weibo朋友圈</button>
+</body>
+</html>

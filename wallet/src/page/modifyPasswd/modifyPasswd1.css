@@ -1,0 +1,21 @@
+.modifySecondStepDom .am-navbar-left{
+  font-size: 18px;
+}
+.modifySecondStepDom .am-navbar{
+  margin-bottom: 30px;
+}
+.modifySecondStepDom .am-list-item{
+  height: 60px;
+}
+.modifySecondStepDom .am-textarea-label{
+  height: 60px;
+  line-height: 60px;
+}
+.inputPass{
+  margin-top: 30px;
+}
+.modifySecondStepDom .confirmBtn{
+  width: 95%;
+  margin:0 auto;
+  margin-top: 40px;
+}

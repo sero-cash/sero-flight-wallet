@@ -1,0 +1,42 @@
+.layoutDom .am-navbar{
+  /*border-bottom:1px solid #ccc;*/
+  /* height: 60px; */
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.layoutDom .am-navbar-left{
+  font-size: 18px;
+}
+.layoutDom .am-navbar-title{
+  font-size: 16px;
+}
+.layoutDom .logoDom{
+  height: 60px;
+  width: 60px;
+  padding-top: 5px;
+}
+.layoutDom .logoDom img{
+  width: 50px;
+  height: 50px;
+}
+.cars{
+
+}
+
+
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+
+.selfIcon{
+  width: 18px!important;
+  height: 18px!important;
+}

@@ -1,0 +1,18 @@
+
+@font-face {font-family: "anticon-wallet";
+  src: url('iconfont.eot?t=1534219544477'); /* IE9*/
+  src: url('iconfont.eot?t=1534219544477#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAASUAAsAAAAABxAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABHU1VCAAABCAAAADMAAABCsP6z7U9TLzIAAAE8AAAARAAAAFZADkuKY21hcAAAAYAAAABLAAABcOrAwHJnbHlmAAABzAAAAMYAAADMudLSfWhlYWQAAAKUAAAALAAAADYSTzAuaGhlYQAAAsAAAAAcAAAAJAfeA4NobXR4AAAC3AAAAAgAAAAICAAAAGxvY2EAAALkAAAABgAAAAYAZgAAbWF4cAAAAuwAAAAgAAAAIAEPAFNuYW1lAAADDAAAAV0AAAK1OauWFXBvc3QAAARsAAAAJgAAADdeUkkXeJxjYGRgYOBikGPQYWB0cfMJYeBgYGGAAJAMY05meiJQDMoDyrGAaQ4gZoOIAgCKIwNPAHicY2BkYWCcwMDKwMHUyXSGgYGhH0IzvmYwYuRgYGBiYGVmwAoC0lxTGBxezng5g7nhfwNDDHMDQwNQmBEkBwD1Yw0ZeJxjYGBgZWBgYAZiHSBmYWBgDGFgZAABP6AoI1icmYELLM7CoARWwwISfznj/38YCeSzgEkGRjaGUcADJmWgPHBYQTADIwCkCwvVAHicHYs/D8FAGIfv1fRt79qL3GmPSgzqcgaJodoamP1Z2U2+gUWMPoZJojGa+VqCsVGe7ff88hCLVFh7C0hIpmRGCJi+ies1DJpqDHnSBJXkaT/GUAQ4gCw1A4ixA73YZCI1f69G3STPxBDsNJ9AoqrX2q3fciSLi217Hixoi8ICPXZwXMG3Otq09daXlLs6gnNb12h5a3gbLk5wXX2kLApkyFjV0fKOjCvXKR++fEZaRy/BYem4P/ObMEd69KX0X+QLJ3wiwQAAeJxjYGRgYADi3Yceecbz23xl4GZhAIHrM8okkGkWBmaQSg4GJhAPAB7GCGV4nGNgZGBgbvjfwBDDwgACQJKRARUwAQBHCAJrBAAAAAQAAAAAAAAAAGYAAAABAAAAAgBHAAMAAAAAAAIAAAAKAAoAAAD/AAAAAAAAeJx9j71OAkEUhc/Ij3GJFhqtKCYxMRHD8lMZGgsSqKWgsTDLMstPdnc2wwDhFXwHH8Kn8C1sfALfwMMyFFCwkznz3XPn3r0D4Bo/ENh9t9w7FrhitOMznOPecYF+zXGR/Oy4hAp6jsv0Xx17eMK74wpu8MEOonjBqIZPxwJVfDs+Y+2v4wL9P8dFVMWl4xLuxKPjMv0Xxx6G4s1xBQ/iy+saFVg1lqONnIU6jXRqvSC1W66vgzhWdqAmyzgwh+ZhNFRmMdOpbPnNw0Rfpcrs+y9Wk7a1kYyMTmSPP1JxrGVm9FyF1p9am3Uajcj5fqgTjtuFgUIASx1DYoQNdYYQGimiXC3vBfm59+tY04m5FN0BdYIlo4DdTt08lRtSDRbMbnMSLfhonqzoU9O86nj+BVacqE3X8g2S27A+IfXci1TeRdPJ8tycTkjfxzSvytBBgys6uu/nkyT/yg+BPgAAAHicY2BigAAuBuyAiZGJkZmBN7E0UzczOT9PNyM/N5WBAQAv6AUOAAA=') format('woff'),
+  url('iconfont.ttf?t=1534219544477') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1534219544477#anticon-wallet') format('svg'); /* iOS 4.1- */
+}
+
+.anticon-wallet {
+  font-family:"anticon-wallet" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.am-icon-aui-icon-home:before { content: "\e998"; }

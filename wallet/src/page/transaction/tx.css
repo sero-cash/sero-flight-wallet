@@ -1,0 +1,76 @@
+.transactionDetailDom {
+    background: white;
+}
+
+.transactionDetailDom .am-navbar-left {
+    font-size: 18px;
+}
+
+.transactionDetailDom .am-navbar {
+    border-bottom: 1px solid #eee
+}
+
+.transactionDetailDom .detailAmount {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0 15px 0;
+}
+
+.transactionDetailDom .detailStatus {
+    width: 100%;
+    color: #888;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.txButton {
+    position: fixed;
+    width:100%;
+    bottom: 0px;
+    display: flex;
+    background-color: white;
+}
+
+.txButton .bt1 {
+    width: 47%;
+    float: left;
+    padding: 5px;
+}
+
+.txButton .bt2 {
+    width: 47%;
+    float: right;
+    padding: 5px;
+}
+
+.txDetail{
+
+}
+
+.txDetailLeft{
+    color:gray;
+    font-size:14px !important;
+}
+
+.txDetailRight{
+    margin-left: 10px;
+    color:#000;
+    word-wrap:break-word;
+    font-size:14px !important;
+
+
+}
+.txDetailRight2{
+    color: #000;
+    word-wrap: break-word;
+    font-size: 14px !important;
+    padding: 5px 25px;
+    width: 90% !important;
+    float: left !important;
+    overflow: hidden !important;
+    -o-text-overflow: ellipsis !important;
+    text-overflow: ellipsis !important;
+    white-space: normal !important;
+}
+
